@@ -5,7 +5,6 @@ default_path=//NDK/samples/kicks/kd14bop/snare_off/opn\
 
 
 <global>
-loop_mode=one_shot
 
 //ampeg_attack=0.001
 //ampeg_release=0.15
