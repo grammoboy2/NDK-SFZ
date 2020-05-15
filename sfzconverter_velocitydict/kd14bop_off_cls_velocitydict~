@@ -1,3 +1,4 @@
+//I gave the miss hits (x) there own velocity value, I guess this is meant to put in some humanization...
 Label:VelocityOrder
 001:0
 002:1
