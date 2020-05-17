@@ -1,7 +1,7 @@
 <control>
 
 
-default_path=//NDK/samples/kicks/kd14bop/snare_on/opn\
+default_path=~/linuxaudio/NDK/samples/kicks/kd14bop/snare_on/opn\
 
 
 <global>
@@ -10,317 +10,318 @@ loop_mode=one_shot
 <group> //Begin Group for entire instrument
 key=12
 
-
-
 <region>
 sample=kd14wbop_opn_001.wav
 lovel=0
 hivel=1
+amp_velcurve_1=1 
 
 
 <region>
 sample=kd14wbop_opn_002.wav
 lovel=2
 hivel=3
+amp_velcurve_3=1
 
 
 <region>
 sample=kd14wbop_opn_003.wav
 lovel=4
 hivel=6
+amp_velcurve_6=1
 
 
 <region>
 sample=kd14wbop_opn_004.wav
 lovel=7
 hivel=8
-
+amp_velcurve_8=1
 
 <region>
 sample=kd14wbop_opn_005.wav
 lovel=9
 hivel=11
-
+amp_velcurve_11=1
 
 <region>
 sample=kd14wbop_opn_006.wav
 lovel=12
 hivel=13
-
+amp_velcurve_13=1
 
 <region>
 sample=kd14wbop_opn_007.wav
 lovel=14
 hivel=16
-
+amp_velcurve_16=1
 
 <region>
 sample=kd14wbop_opn_008.wav
 lovel=17
 hivel=18
-
+amp_velcurve_18=1
 
 <region>
 sample=kd14wbop_opn_009.wav
 lovel=19
 hivel=20
-
+amp_velcurve_20=1
 
 <region>
 sample=kd14wbop_opn_010.wav
 lovel=21
 hivel=23
-
+amp_velcurve_23=1
 
 <region>
 sample=kd14wbop_opn_011.wav
 lovel=24
 hivel=25
-
+amp_velcurve_25=1
 
 <region>
 sample=kd14wbop_opn_012.wav
 lovel=26
 hivel=28
-
+amp_velcurve_28=1
 
 <region>
 sample=kd14wbop_opn_013.wav
 lovel=29
 hivel=30
-
+amp_velcurve_30=1
 
 <region>
 sample=kd14wbop_opn_014.wav
 lovel=31
 hivel=33
-
+amp_velcurve_33=1
 
 <region>
 sample=kd14wbop_opn_015.wav
 lovel=34
 hivel=35
-
+amp_velcurve_35=1
 
 <region>
 sample=kd14wbop_opn_016.wav
 lovel=36
 hivel=38
-
+amp_velcurve_38=1
 
 <region>
 sample=kd14wbop_opn_017.wav
 lovel=39
 hivel=40
-
+amp_velcurve_40=1
 
 <region>
 sample=kd14wbop_opn_018.wav
 lovel=41
 hivel=42
-
+amp_velcurve_42=1
 
 <region>
 sample=kd14wbop_opn_019.wav
 lovel=43
 hivel=45
-
+amp_velcurve_45=1
 
 <region>
 sample=kd14wbop_opn_020.wav
 lovel=46
 hivel=47
-
+amp_velcurve_47=1
 
 <region>
 sample=kd14wbop_opn_021.wav
 lovel=48
 hivel=50
-
+amp_velcurve_50=1
 
 <region>
 sample=kd14wbop_opn_022.wav
 lovel=51
 hivel=52
-
+amp_velcurve_52=1
 
 <region>
 sample=kd14wbop_opn_023.wav
 lovel=53
 hivel=55
-
+amp_velcurve_55=1
 
 <region>
 sample=kd14wbop_opn_024.wav
 lovel=56
 hivel=57
-
+amp_velcurve_57=1
 
 <region>
 sample=kd14wbop_opn_025.wav
 lovel=58
 hivel=60
-
+amp_velcurve_60=1
 
 <region>
 sample=kd14wbop_opn_027.wav
 lovel=61
 hivel=62
-
+amp_velcurve_62=1
 
 <region>
 sample=kd14wbop_opn_026.wav
 lovel=63
 hivel=64
-
+amp_velcurve_64=1
 
 <region>
 sample=kd14wbop_opn_028.wav
 lovel=65
 hivel=67
-
+amp_velcurve_67=1
 
 <region>
 sample=kd14wbop_opn_029.wav
 lovel=68
 hivel=69
-
+amp_velcurve_69=1
 
 <region>
 sample=kd14wbop_opn_030.wav
 lovel=70
 hivel=72
-
+amp_velcurve_72=1
 
 <region>
 sample=kd14wbop_opn_031.wav
 lovel=73
 hivel=74
-
+amp_velcurve_74=1
 
 <region>
 sample=kd14wbop_opn_032.wav
 lovel=75
 hivel=77
-
+amp_velcurve_77=1
 
 <region>
 sample=kd14wbop_opn_033.wav
 lovel=78
 hivel=79
-
+amp_velcurve_79=1
 
 <region>
 sample=kd14wbop_opn_034.wav
 lovel=80
 hivel=82
-
+amp_velcurve_82=1
 
 <region>
 sample=kd14wbop_opn_035.wav
 lovel=83
 hivel=84
-
+amp_velcurve_84=1
 
 <region>
 sample=kd14wbop_opn_036.wav
 lovel=85
 hivel=86
-
+amp_velcurve_86=1
 
 <region>
 sample=kd14wbop_opn_037.wav
 lovel=87
 hivel=89
-
+amp_velcurve_89=1
 
 <region>
 sample=kd14wbop_opn_038.wav
 lovel=90
 hivel=91
-
+amp_velcurve_91=1
 
 <region>
 sample=kd14wbop_opn_039x.wav
 lovel=92
 hivel=94
-
+amp_velcurve_94=1
 
 <region>
 sample=kd14wbop_opn_040x.wav
 lovel=95
 hivel=96
-
+amp_velcurve_96=1
 
 <region>
 sample=kd14wbop_opn_041x.wav
 lovel=97
 hivel=99
-
+amp_velcurve_99=1
 
 <region>
 sample=kd14wbop_opn_042x.wav
 lovel=100
 hivel=101
-
+amp_velcurve_101=1
 
 <region>
 sample=kd14wbop_opn_043x.wav
 lovel=102
 hivel=104
-
+amp_velcurve_104=1
 
 <region>
 sample=kd14wbop_opn_044.wav
 lovel=105
 hivel=106
-
+amp_velcurve_106=1
 
 <region>
 sample=kd14wbop_opn_045x.wav
 lovel=107
 hivel=108
-
+amp_velcurve_108=1
 
 <region>
 sample=kd14wbop_opn_046.wav
 lovel=109
 hivel=111
-
+amp_velcurve_111=1
 
 <region>
 sample=kd14wbop_opn_047.wav
 lovel=112
 hivel=113
-
+amp_velcurve_113=1
 
 <region>
 sample=kd14wbop_opn_048x.wav
 lovel=114
 hivel=116
-
+amp_velcurve_116=1
 
 <region>
 sample=kd14wbop_opn_049x.wav
 lovel=117
 hivel=118
-
+amp_velcurve_118=1
 
 <region>
 sample=kd14wbop_opn_050x.wav
 lovel=119
 hivel=121
-
+amp_velcurve_121=1
 
 <region>
 sample=kd14wbop_opn_051.wav
 lovel=122
 hivel=123
-
+amp_velcurve_123=1
 
 <region>
 sample=kd14wbop_opn_052.wav
 lovel=124
 hivel=127
-
+amp_velcurve_127=1
 
