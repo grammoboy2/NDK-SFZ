@@ -1,5 +1,0 @@
-* what to do with the x (miss hits) samples? I gave them their own velocity layer.
-
-* Is the amp_velcurve needed? 
->> Sam:  I wouldn't use a velocity algorithm; when no algorithm is specified, the software will automatically calculate the division of 127 as necessary. You must update or create your own Velocity Dictionary though, as the current one will not recognize '001, 002, 003 ...' as valid inputs. I do not believe we specified a limit to the number of velocity layers that can be specified or mapped, but I've also never tested it with so many, so let me know if it works!
-
