@@ -1,14 +1,11 @@
 <control>
-
-
-default_path=~/linuxaudio/NDK/samples/kicks/kd14bop/snare_off/cls/
-
+default_path=/home/debian/linuxaudio/NDK/samples/kicks/kd14bop/snare_off/cls\
 
 <global>
 loop_mode=one_shot
 
 <group> //Begin Group for entire instrument
-key=11
+key=60
 
 
 <region> lovel=1 hivel=3 amp_velcurve_3=1 sample=kd14bop_cls_001.wav
