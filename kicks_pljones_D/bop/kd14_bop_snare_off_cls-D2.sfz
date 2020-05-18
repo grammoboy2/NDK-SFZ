@@ -1,5 +1,5 @@
 <control>
-default_path=../../../NDK/samples/kicks/kd14bop/snare_off/cls\
+default_path=/home/debian/linuxaudio/NDK/samples/kicks/kd14bop/snare_off/cls\
 
 <global>
 loop_mode=one_shot
