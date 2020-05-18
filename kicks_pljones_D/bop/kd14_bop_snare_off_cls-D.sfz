@@ -1,8 +1,7 @@
 <control>
 
 
-default_path=~linuxaudio/NDK/samples/kicks/kd14bop/snare_off/cls/
-//~/linuxaudio/NDK/samples/kicks/kd14bop/snare_on/cls\
+default_path=~/linuxaudio/NDK/samples/kicks/kd14bop/snare_off/cls/
 
 
 <global>
