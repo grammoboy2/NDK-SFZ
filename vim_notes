@@ -1,0 +1,4 @@
+ ./samples/snares/sn12bop/stx/muted/snare_on/e2c/
+<osse> :%s#\./samples/snares/sn12bop/stx/muted/snare_on/e2c/##
+<weseven> just yank the text and do :%s!<ctrl-r+0>!!
+<romainl> select it, yank it, do :%s@<C-r>
