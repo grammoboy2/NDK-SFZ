@@ -1,0 +1,8 @@
+sed '1s/^/insert this\n\n\n/' 1.sfz > 1.1.sfz
+
+
+ sed 's+\../samples/snares/sn12bop/hnd/snare_off/ord/++g' 1.sfz > 2.sfz
+
+
+sed '1s/^/<control>\n
+default_path=../../../\n' 
