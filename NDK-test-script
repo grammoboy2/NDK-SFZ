@@ -6,9 +6,9 @@
 for file in *.sfz; 
 	do read r temp0 < "$file"; 	#copy first line of the pljones sfz file and use it later
 		copyFile="$(<$file)"; 		#copy pljones sfz file
-		temp1="${temp0##*=}"; 		#rm everything in line, before '/'
-		temp2="${temp1%/*}/"; 		#rm everyting in line, after '/'
-		file1="${file/.sfz/-D.sfz}"; 			#rename file sfz to -D.sfz
+		temp1="${temp0##*=}"; 		#rm everything at beginning of line, that matches the pattern '='
+		temp2="${temp1%/*}/"; 		#rm everyting in line, after the last '/'
+		file1="${file/.sfz/-D.sfz}"; 			#store the edited file name in a variable 
 		#put default_path on top of file
 		printf "<control>\ndefault_path=../$temp2\n\n<global>\nloop_mode=one_shot\n\n<group>\nkey=11\n\n" > "$file1";
 		echo "${copyFile//$temp2/}" >> "$file1"; 	#add content of copyFile without sample path to -D.sfz file
