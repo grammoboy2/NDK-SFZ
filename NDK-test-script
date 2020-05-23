@@ -5,7 +5,7 @@
 
 for file in *.sfz; 
 do 
-    read r temp0 < "$file"; 	#copy first line of the pljones sfz file and use it later
+    read -r temp0 < "$file"; 	#copy first line of the pljones sfz file and use it later
     copyFile="$(<$file)"; 	#copy pljones sfz file
     temp1="${temp0##*=}";	#rm everything at beginning of line, that matches the pattern '='
     temp2="${temp1%/*}/";	#rm everyting in line, after the last '/'
