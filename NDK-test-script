@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Simple script for editing sfz files by pljones for the NDK drumkit
+# This is my first attempt to write a bash script, that does more then just starting applications. You've been warned...!
+# grammoboy 2020
+
+for file in *.sfz; 
+	do read r temp0 < "$file"; 
+		copyFile="$(<$file)";
+		temp1="${temp0#*/}"; 
+		temp2="../${temp1%/*}/";
+		file1="${file/.sfz/-D.sfz}"; 
+		echo "../../$temp2" > "$file1"; 
+		echo "${copyFile//$temp2/}" >> "$file1"; 
+	done
+
