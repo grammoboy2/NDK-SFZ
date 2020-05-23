@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Simple script for editing sfz files by pljones for the NDK drumkit
-# This is my first attempt to write a bash script, that does more then just starting applications. You've been warned...!
-# grammoboy 2020
+#Simple script for adding 'default_path' and 'key' to the sfz files by pljones for the NDK drumkit. 
+#The script makes a edited copy of all the sfz files in the folder.
+#This is my first attempt to write a bash script, that does more then just starting applications. You've been warned...!
+#grammoboy 2020
 
 for file in *.sfz; 
 do 
