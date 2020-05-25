@@ -1,5 +1,5 @@
 <control>
-default_path=../..///
+default_path=..///
 
 <global>
 loop_mode=one_shot
