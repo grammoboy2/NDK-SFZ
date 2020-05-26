@@ -72,22 +72,20 @@ ppath="${prepath#*../}";
 for file in *.sfz; 
 do 
     read -r temp0 < "$file"; 	#copy first line of the pljones sfz file and use it later
-    copyFile="$(<$file)"; 	#copy pljones sfz file
     temp1="${temp0##*=}";	#rm everything at beginning of line, that matches the pattern '../'
     temp2="${temp1%/*}/";	#rm everyting in line, after the last '/'
+  
+    copyFile="$(<$file)"; 	#copy pljones sfz file
     file1="${file/.sfz/-D.sfz}";	#store the edited file name in a variable 
 
-    if [[ "$fix" = 1 ]];
-
-        then printf "<control>\ndefault_path="$ppath""$temp2"\n\n<global>\nloop_mode=one_shot\n\n<group>\nkey="$key"\n\n" > "$file1";	
-
-        else printf "<control>\ndefault_path="$ppath""$temp2"\n\n<global>\nloop_mode=one_shot\n\n<group>\nkey="$key"\n\n" > "$file1";
-        let key+=1;	
+    printf "<control>\ndefault_path="$ppath""$temp2"\n\n<global>\nloop_mode=one_shot\n\n<group>\nkey="$key"\n\n" > "$file1";	
+   
+    echo "${copyFile//$temp2/}" >> "$file1";	#add content of copyFile without sample path to -D.sfz file
+  
+    printf "$file --> $file1, done\n";
+    
+    if [[ "$fix" != 1 ]];
+    then let key+=1;
     fi
 
-    echo "${copyFile//$temp2/}" >> "$file1";	#add content of copyFile without sample path to -D.sfz file
-    printf "$file --> $file1, done\n";
-    #printf "$i";
-    #printf "$k";
 done
-
