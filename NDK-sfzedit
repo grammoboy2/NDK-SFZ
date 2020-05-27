@@ -16,26 +16,20 @@ prepath="../../../";
 
 #check if argument is given
 
-if [[ $# -eq 0 ]] ; then
-    echo "Please provide keynumber using -k. For more info use -h."; exit 1;
+if [[ $# -eq 0 ]] ; then  #-eq = equal
+#    echo "Please provide keynumber using -k. For more info use -h."; exit 1;
+key=60;
+fix=1;
 fi
 
-#case "$1" in
-#-h|--help) printf "Information:\n\nScript makes a copy of pljones sfz files in this folder and adds default_path to them\nYou might need to adjust the path for the desired result in the copy (see NOTE1 in script).\n\nExample: bash NDK-sfzedit2 -k 1 -f\n\nWhere -k is the starting keynumber. Use -f if you want to use a fixated keynumber for all your sfz files in the folder.\n\n"; exit 1 ;;
-#        -k|--key) key="$2"; shift ;;
-#        -f|--fix) fix=1; shift ;; 
-#        *) echo "Unknown parameter passed: $1"; exit 1 ;;
-#esac
-
-while [[ "$#" -gt 0 ]]; 
+while [[ "$#" -gt 0 ]]; #-gt = greater then
 	do case $1 in
 	    -h|--help) printf "Information:\n\nScript makes a copy of pljones sfz files in this folder and adds default_path to them\nYou might need to adjust the path for the desired result in the copy (see NOTE1 in script).\n\nExample: bash NDK-sfzedit2 -k 1 -f\n\nWhere -k is the starting keynumber. Use -f if you want to use a fixated keynumber for all your sfz files in the folder.\n\n"; exit 1 ;;
         -k|--key) key="$2"; shift ;;
-        -f|--fix) fix=1; shift ;;
+        -f|--fix) fix=1;; #shift ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
-#else echo "Please provide keynumber using -k. For more info use -h."; exit 1;
 done
 
 
