@@ -1,0 +1,32 @@
+<group>
+#include "kd14_bop_snare_off_cls-D.sfz"
+<group>
+#include "kd14_bop_snare_off_opn-D.sfz"
+<group>
+#include "kd14_bop_snare_on_cls-D.sfz"
+<group>
+#include "kd14_bop_snare_on_opn-D.sfz"
+<group>
+#include "kd20_full_snare_on_cls_a-D.sfz"
+<group>
+#include "kd20_full_snare_on_opn_a-D.sfz"
+<group>
+#include "kd20_punch_snare_off_cls_a-D.sfz"
+<group>
+#include "kd20_punch_snare_off_opn_a-D.sfz"
+<group>
+#include "kd20_punch_snare_on_cls_a-D.sfz"
+<group>
+#include "kd20_punch_snare_on_opn_a-D.sfz"
+<group>
+#include "kd22_boom_snare_off_cls-D.sfz"
+<group>
+#include "kd22_boom_snare_off_opn-D.sfz"
+<group>
+#include "kd22_boom_snare_on_cls-D.sfz"
+<group>
+#include "kd22_boom_snare_on_opn-D.sfz"
+<group>
+#include "kd22_noreso_snare_on_cls-D.sfz"
+<group>
+#include "kd22_noreso_snare_on_opn-D.sfz"

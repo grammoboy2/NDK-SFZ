@@ -1,0 +1,62 @@
+<group>
+#include "ride_cy19_brs_bel-D.sfz"
+<group>
+#include "ride_cy19_brs_grb-D.sfz"
+<group>
+#include "ride_cy19_brs_ord-D.sfz"
+<group>
+#include "ride_cy19_brs_sws-D.sfz"
+<group>
+#include "ride_cy19_hnd_grb-D.sfz"
+<group>
+#include "ride_cy19_hnd_ord-D.sfz"
+<group>
+#include "ride_cy19_mlt_bel-D.sfz"
+<group>
+#include "ride_cy19_mlt_grb-D.sfz"
+<group>
+#include "ride_cy19_mlt_ord-D.sfz"
+<group>
+#include "ride_cy19_mlt_rol-D.sfz"
+<group>
+#include "ride_cy19_stx_bel-D.sfz"
+<group>
+#include "ride_cy19_stx_crs-D.sfz"
+<group>
+#include "ride_cy19_stx_elv-D.sfz"
+<group>
+#include "ride_cy19_stx_grc-D.sfz"
+<group>
+#include "ride_cy19_stx_grt-D.sfz"
+<group>
+#include "ride_cy19_stx_ord-D.sfz"
+<group>
+#include "ride_cy19_stx_rim-D.sfz"
+<group>
+#include "ride_cy20_brs_bel-D.sfz"
+<group>
+#include "ride_cy20_brs_grb-D.sfz"
+<group>
+#include "ride_cy20_brs_ord-D.sfz"
+<group>
+#include "ride_cy20_brs_sws-D.sfz"
+<group>
+#include "ride_cy20_hnd_grb-D.sfz"
+<group>
+#include "ride_cy20_hnd_ord-D.sfz"
+<group>
+#include "ride_cy20_mlt_grb-D.sfz"
+<group>
+#include "ride_cy20_mlt_ord-D.sfz"
+<group>
+#include "ride_cy20_mlt_rol-D.sfz"
+<group>
+#include "ride_cy20_stx_bel-D.sfz"
+<group>
+#include "ride_cy20_stx_elv-D.sfz"
+<group>
+#include "ride_cy20_stx_grb-D.sfz"
+<group>
+#include "ride_cy20_stx_ord-D.sfz"
+<group>
+#include "ride_cy20_stx_rim-D.sfz"

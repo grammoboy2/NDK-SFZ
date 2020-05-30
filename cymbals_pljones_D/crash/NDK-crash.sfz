@@ -1,0 +1,100 @@
+<group>
+#include "china_cy19_brs_grb-D.sfz"
+<group>
+#include "china_cy19_brs_ord-D.sfz"
+<group>
+#include "china_cy19_brs_sws-D.sfz"
+<group>
+#include "china_cy19_hnd_grb-D.sfz"
+<group>
+#include "china_cy19_hnd_ord-D.sfz"
+<group>
+#include "china_cy19_mlt_grb-D.sfz"
+<group>
+#include "china_cy19_mlt_ord-D.sfz"
+<group>
+#include "china_cy19_mlt_rol-D.sfz"
+<group>
+#include "china_cy19_stx_grb-D.sfz"
+<group>
+#include "china_cy19_stx_ord-D.sfz"
+<group>
+#include "china_cy19_stx_top-D.sfz"
+<group>
+#include "crash_cy15_brs_grb-D.sfz"
+<group>
+#include "crash_cy15_brs_ord-D.sfz"
+<group>
+#include "crash_cy15_brs_sws-D.sfz"
+<group>
+#include "crash_cy15_hnd_grb-D.sfz"
+<group>
+#include "crash_cy15_hnd_ord-D.sfz"
+<group>
+#include "crash_cy15_mlt_grb-D.sfz"
+<group>
+#include "crash_cy15_mlt_ord-D.sfz"
+<group>
+#include "crash_cy15_mlt_rol-D.sfz"
+<group>
+#include "crash_cy15_stx_bel-D.sfz"
+<group>
+#include "crash_cy15_stx_grb-D.sfz"
+<group>
+#include "crash_cy15_stx_ord-D.sfz"
+<group>
+#include "crash_cy15_stx_rim-D.sfz"
+<group>
+#include "crash_cy15_stx_top-D.sfz"
+<group>
+#include "crash_cy18_brs_grb-D.sfz"
+<group>
+#include "crash_cy18_brs_ord-D.sfz"
+<group>
+#include "crash_cy18_brs_sws-D.sfz"
+<group>
+#include "crash_cy18_hnd_grb-D.sfz"
+<group>
+#include "crash_cy18_hnd_ord-D.sfz"
+<group>
+#include "crash_cy18_mlt_grb-D.sfz"
+<group>
+#include "crash_cy18_mlt_ord-D.sfz"
+<group>
+#include "crash_cy18_mlt_rol-D.sfz"
+<group>
+#include "crash_cy18_stx_bel-D.sfz"
+<group>
+#include "crash_cy18_stx_grb-D.sfz"
+<group>
+#include "crash_cy18_stx_ord-D.sfz"
+<group>
+#include "crash_cy18_stx_rim-D.sfz"
+<group>
+#include "crash_cy18_stx_top-D.sfz"
+<group>
+#include "sizzle_cy19_brs_bel-D.sfz"
+<group>
+#include "sizzle_cy19_brs_grb-D.sfz"
+<group>
+#include "sizzle_cy19_brs_ord-D.sfz"
+<group>
+#include "sizzle_cy19_brs_sws-D.sfz"
+<group>
+#include "sizzle_cy19_hnd_grb-D.sfz"
+<group>
+#include "sizzle_cy19_hnd_ord-D.sfz"
+<group>
+#include "sizzle_cy19_mlt_bel-D.sfz"
+<group>
+#include "sizzle_cy19_mlt_grb-D.sfz"
+<group>
+#include "sizzle_cy19_mlt_ord-D.sfz"
+<group>
+#include "sizzle_cy19_stx_bel-D.sfz"
+<group>
+#include "sizzle_cy19_stx_elv-D.sfz"
+<group>
+#include "sizzle_cy19_stx_grb-D.sfz"
+<group>
+#include "sizzle_cy19_stx_ord-D.sfz"

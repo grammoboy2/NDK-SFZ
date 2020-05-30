@@ -1,0 +1,68 @@
+<group>
+#include "splash_cy12_brs_grb-D.sfz"
+<group>
+#include "splash_cy12_brs_ord-D.sfz"
+<group>
+#include "splash_cy12_brs_sws-D.sfz"
+<group>
+#include "splash_cy12_hnd_grb-D.sfz"
+<group>
+#include "splash_cy12_hnd_ord-D.sfz"
+<group>
+#include "splash_cy12_mlt_grb-D.sfz"
+<group>
+#include "splash_cy12_mlt_ord-D.sfz"
+<group>
+#include "splash_cy12_mlt_rol-D.sfz"
+<group>
+#include "splash_cy12_stx_bel-D.sfz"
+<group>
+#include "splash_cy12_stx_grb-D.sfz"
+<group>
+#include "splash_cy12_stx_ord-D.sfz"
+<group>
+#include "splash_cy12_stx_rim-D.sfz"
+<group>
+#include "splash_cy12_stx_top-D.sfz"
+<group>
+#include "splash_cy8_brs_grb-D.sfz"
+<group>
+#include "splash_cy8_brs_ord-D.sfz"
+<group>
+#include "splash_cy8_brs_sws-D.sfz"
+<group>
+#include "splash_cy8_hnd_grb-D.sfz"
+<group>
+#include "splash_cy8_hnd_ord-D.sfz"
+<group>
+#include "splash_cy8_mlt_grb-D.sfz"
+<group>
+#include "splash_cy8_mlt_ord-D.sfz"
+<group>
+#include "splash_cy8_mlt_rol-D.sfz"
+<group>
+#include "splash_cy8_stx_bel-D.sfz"
+<group>
+#include "splash_cy8_stx_grb-D.sfz"
+<group>
+#include "splash_cy8_stx_ord-D.sfz"
+<group>
+#include "splash_cy9_brs_grb-D.sfz"
+<group>
+#include "splash_cy9_brs_ord-D.sfz"
+<group>
+#include "splash_cy9_brs_sws-D.sfz"
+<group>
+#include "splash_cy9_hnd_grb-D.sfz"
+<group>
+#include "splash_cy9_hnd_ord-D.sfz"
+<group>
+#include "splash_cy9_mlt_grb-D.sfz"
+<group>
+#include "splash_cy9_mlt_ord-D.sfz"
+<group>
+#include "splash_cy9_mlt_rol-D.sfz"
+<group>
+#include "splash_cy9_stx_grb-D.sfz"
+<group>
+#include "splash_cy9_stx_ord-D.sfz"

@@ -1,8 +1,0 @@
-<group>
-#include "kd14_bop_snare_off_cls-D.sfz"
-<group>
-#include "kd14_bop_snare_off_opn-D.sfz"
-<group>
-#include "kd14_bop_snare_on_cls-D.sfz"
-<group>
-#include "kd14_bop_snare_on_opn-D.sfz"
