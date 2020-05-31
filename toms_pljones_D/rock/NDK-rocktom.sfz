@@ -1,0 +1,128 @@
+<group>
+#include "tm10_dry_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_dry_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm10_noreso_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_rock_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_rock_brs_snare_on_ord_r-D.sfz"
+<group>
+#include "tm10_rock_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_rock_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm10_rock_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_rock_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm10_rock_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_rock_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm10_rock_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm10_rock_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm10_rock_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm12_dry_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_dry_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_noreso_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_rock_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_rock_brs_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_rock_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_rock_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_rock_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_rock_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_rock_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_rock_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm12_rock_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm12_rock_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_rock_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm14_dry_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_dry_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_noreso_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_rock_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_rock_brs_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_rock_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_rock_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_rock_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_rock_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_rock_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_rock_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm14_rock_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm14_rock_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_rock_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm16_rock_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_rock_brs_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_rock_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_rock_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_rock_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_rock_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_rock_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_rock_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm16_rock_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm16_rock_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_rock_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm8_rock_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_rock_brs_snare_on_ord_r-D.sfz"
+<group>
+#include "tm8_rock_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_rock_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm8_rock_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_rock_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm8_rock_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_rock_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm8_rock_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm8_rock_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm8_rock_stx_snare_on_rms_r-D.sfz"

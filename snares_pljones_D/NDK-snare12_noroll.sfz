@@ -1,0 +1,142 @@
+<group>
+#include "sn12_bop_brs_snare_off_cls_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_off_clsrls_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_off_opn_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_off_rms_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_cls_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_clsrls_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_opn_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_rms_r-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_swc-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_swl-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_swlrpt-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_sws-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_swsrpt-D.sfz"
+<group>
+#include "sn12_bop_brs_snare_on_swu-D.sfz"
+<group>
+#include "sn12_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "sn12_bop_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "sn12_bop_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_e2c_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_rim-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_rmh_r-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_rms_r-D.sfz"
+//<group>
+//#include "sn12_bop_muted_stx_snare_on_rol-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_xtka-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_xtkb-D.sfz"
+<group>
+#include "sn12_bop_muted_stx_snare_on_xtkc-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_e2c_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_prs_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_rim-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_rmh_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_xtka-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_off_xtkb-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_e2c_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_rmh_r-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_rms_r-D.sfz"
+//<group>
+//#include "sn12_bop_open_stx_snare_on_rol-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_xtka-D.sfz"
+<group>
+#include "sn12_bop_open_stx_snare_on_xtkb-D.sfz"
+<group>
+#include "sn12_dead_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_dead_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_dead_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "sn12_funk_brs_snare_on_cls_r-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_e2c_r-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_rmh_r-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_rms_r-D.sfz"
+//<group>
+//#include "sn12_funk_stx_snare_on_rol-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_xtka-D.sfz"
+<group>
+#include "sn12_funk_stx_snare_on_xtkb-D.sfz"
+<group>
+#include "sn12_orleans_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_orleans_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_orleans_stx_snare_on_rmh_r-D.sfz"
+<group>
+#include "sn12_orleans_stx_snare_on_rms_r-D.sfz"
+//<group>
+//#include "sn12_orleans_stx_snare_on_rol-D.sfz"
+<group>
+#include "sn12_orleans_stx_snare_on_xtk-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_e2c_r-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_prs_r-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_rmh_r-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_rms_r-D.sfz"
+//<group>
+//#include "sn12_tight_stx_snare_on_rol-D.sfz"
+<group>
+#include "sn12_tight_stx_snare_on_xtk-D.sfz"

@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+#Simple script for adding 'default_path' and 'key' to the sfz files by pljones for the NDK drumkit. 
+#The script makes a edited copy of all the sfz files in the folder.
+#Script is writen to work with BASH 
+#Run script in terminal: bash NDK-2test-script
+#grammoboy 2020
+
+
+#NOTE1: path to NDK samples folder
+
+prepath="../../../";
+
+
+#https://stackoverflow.com/questions/2427995/bash-no-arguments-warning-and-case-decisions#26396846
+#https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash?rq=1
+
+#check if argument is given
+
+if [[ $# -eq 0 ]] ; then  #-eq = equal
+#    echo "Please provide keynumber using -k. For more info use -h."; exit 1;
+key=60;
+fix=1;
+fi
+
+while [[ "$#" -gt 0 ]]; #-gt = greater then
+	do case $1 in
+	    -h|--help) printf "Information:\n\nScript makes a copy of pljones sfz files in this folder and adds default_path to them\nYou might need to adjust the path for the desired result in the copy (see NOTE1 in script).\n\nExample: bash NDK-sfzedit2 -k 1 -f\n\nWhere -k is the starting keynumber. Use -f if you want to use a fixated keynumber for all your sfz files in the folder.\n\n"; exit 1 ;;
+        -k|--key) key="$2"; shift ;;
+        -f|--fix) fix=1;; #shift ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+
+
+
+#check if there are files with *-D.sfz in the folder
+
+if compgen -G "*D.sfz" > /dev/null; then
+    printf "Warning: Did you already run the script in this folder? You might want to remove the files from the first run before running the script again.\n\n" &&
+
+	   #ask to continue
+
+while true; 
+do
+    read -p "Continue? (y/n) " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no. ";;
+    esac
+done
+fi
+
+
+
+
+#remove ../ from given prepath, because it will be added again in the next section. Dirty hack?
+
+ppath="${prepath#*../}";
+
+
+#start copying here
+
+for file in *.sfz; 
+do 
+    read -r temp0 < "$file"; 	#copy first line of the pljones sfz file and use it later
+    temp1="${temp0##*=}";	#rm everything at beginning of line, that matches the pattern '../'
+    temp2="${temp1%/*}/";	#rm everyting in line, after the last '/'
+  
+    copyFile="$(<$file)"; 	#copy pljones sfz file
+    file1="${file/.sfz/-D.sfz}";	#store the edited file name in a variable 
+
+    printf "<control>\ndefault_path="$ppath""$temp2"\n\n<global>\nloop_mode=one_shot\n\n<group>\nkey="$key"\n\n" > "$file1";	
+   
+    echo "${copyFile//$temp2/}" >> "$file1";	#add content of copyFile without sample path to -D.sfz file
+  
+    printf "$file --> $file1, done\n";
+    
+    if [[ "$fix" != 1 ]];
+    then let key+=1;
+    fi
+
+done

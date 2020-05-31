@@ -1,0 +1,84 @@
+<group>
+#include "tm10_bop_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_bop_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm10_bop_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm10_bop_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm12_bop_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_bop_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_bop_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_bop_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm12_bop_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm12_bop_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm12_bop_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm12_bop_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm14_bop_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_bop_hnd_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_bop_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_bop_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm14_bop_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm14_bop_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm14_bop_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm14_bop_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm16_bop_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_bop_mlt_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_off_rms_r-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_off_shl-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_on_ord_r-D.sfz"
+<group>
+#include "tm16_bop_stx_snare_on_rms_r-D.sfz"
+<group>
+#include "tm8_bop_brs_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_bop_hnd_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_bop_mlt_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_bop_stx_snare_off_ord_r-D.sfz"
+<group>
+#include "tm8_bop_stx_snare_off_rim-D.sfz"
+<group>
+#include "tm8_bop_stx_snare_off_rms_r-D.sfz"
