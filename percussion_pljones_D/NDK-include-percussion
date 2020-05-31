@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#grammoboy 2020
+
+
+endFile=percussion;
+#start copying here
+
+for file in *.sfz; 
+do 
+    printf "<group>\n#include \"${file}\"\n" >> "NDK-${endFile}.sfz";	
+done
+

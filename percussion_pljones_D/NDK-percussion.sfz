@@ -1,0 +1,26 @@
+<group>
+#include "cowbell_pn8_brs_ord-D.sfz"
+<group>
+#include "cowbell_pn8_hnd_ord-D.sfz"
+<group>
+#include "cowbell_pn8_mlt_muted_ord-D.sfz"
+<group>
+#include "cowbell_pn8_mlt_open_ord-D.sfz"
+<group>
+#include "cowbell_pn8_stx_muted_ord-D.sfz"
+<group>
+#include "cowbell_pn8_stx_muted_top-D.sfz"
+<group>
+#include "cowbell_pn8_stx_open_ord-D.sfz"
+<group>
+#include "cowbell_pn8_stx_open_top-D.sfz"
+<group>
+#include "tambourine_pn9_hnd_hit-D.sfz"
+<group>
+#include "tambourine_pn9_hnd_jng_l-D.sfz"
+<group>
+#include "tambourine_pn9_hnd_jng_r-D.sfz"
+<group>
+#include "tambourine_pn9_hnd_rol-D.sfz"
+<group>
+#include "tambourine_pn9_hnd_thm-D.sfz"
