@@ -1,0 +1,42 @@
+<group>
+#include "hh14_hnd_ord_r_b-D.sfz"
+<group>
+#include "hh14_hnd_top_r_d-D.sfz"
+<group>
+#include "hh14_mlt_ord_r_b-D.sfz"
+<group>
+#include "hh14_mlt_ord_r_d-D.sfz"
+<group>
+#include "hh14_mlt_top_r_e-D.sfz"
+<group>
+#include "hh14_ped_a-D.sfz"
+<group>
+#include "hh14_spl_a-D.sfz"
+<group>
+#include "hh14_stx_bel_a-D.sfz"
+<group>
+#include "hh14_stx_bel_b-D.sfz"
+<group>
+#include "hh14_stx_bel_e-D.sfz"
+<group>
+#include "hh14_stx_grb_a-D.sfz"
+<group>
+#include "hh14_stx_ord_r_a-D.sfz"
+<group>
+#include "hh14_stx_ord_r_b-D.sfz"
+<group>
+#include "hh14_stx_ord_r_c-D.sfz"
+<group>
+#include "hh14_stx_ord_r_d-D.sfz"
+<group>
+#include "hh14_stx_ord_r_e-D.sfz"
+<group>
+#include "hh14_stx_top_r_a-D.sfz"
+<group>
+#include "hh14_stx_top_r_b-D.sfz"
+<group>
+#include "hh14_stx_top_r_c-D.sfz"
+<group>
+#include "hh14_stx_top_r_d-D.sfz"
+<group>
+#include "hh14_stx_top_r_e-D.sfz"
