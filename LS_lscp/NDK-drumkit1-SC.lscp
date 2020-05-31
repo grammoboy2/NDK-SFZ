@@ -1,0 +1,177 @@
+# Exported by: JSampler - a java front-end for LinuxSampler
+# Version: 0.9
+# Date: Sun May 31 14:49:57 CEST 2020
+
+RESET
+
+SET VOLUME 0.75
+
+CREATE MIDI_INPUT_DEVICE JACK NAME='LinuxSampler'
+SET MIDI_INPUT_PORT_PARAMETER 0 0 NAME='midi_in_0'
+SET MIDI_INPUT_PORT_PARAMETER 0 0 JACK_BINDINGS=NONE
+
+CREATE MIDI_INPUT_DEVICE JACK NAME='LinuxSampler2'
+SET MIDI_INPUT_PORT_PARAMETER 1 0 NAME='midi_in_0'
+SET MIDI_INPUT_PORT_PARAMETER 1 0 JACK_BINDINGS=NONE
+
+CREATE AUDIO_OUTPUT_DEVICE JACK ACTIVE=true CHANNELS=2 SAMPLERATE=44100 NAME='LinuxSampler'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 0 NAME='0'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 0 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 1 NAME='1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 1 JACK_BINDINGS=NONE
+
+REMOVE MIDI_INSTRUMENT_MAP ALL
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 0 0
+SET CHANNEL MIDI_INPUT_PORT 0 0
+SET CHANNEL MIDI_INPUT_CHANNEL 0 0
+LOAD ENGINE SFZ 0
+SET CHANNEL VOLUME 0 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 0 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 0 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/kicks_pljones_D/NDK-kicks.sfz' 0 0
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 1 0
+SET CHANNEL MIDI_INPUT_PORT 1 0
+SET CHANNEL MIDI_INPUT_CHANNEL 1 1
+LOAD ENGINE SFZ 1
+SET CHANNEL VOLUME 1 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 1 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 1 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/snares_pljones_D/NDK-snare12_noroll.sfz' 0 1
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 2 0
+SET CHANNEL MIDI_INPUT_PORT 2 0
+SET CHANNEL MIDI_INPUT_CHANNEL 2 2
+LOAD ENGINE SFZ 2
+SET CHANNEL VOLUME 2 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 2 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 2 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/toms_pljones_D/bop/NDK-boptom.sfz' 0 2
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 3 0
+SET CHANNEL MIDI_INPUT_PORT 3 0
+SET CHANNEL MIDI_INPUT_CHANNEL 3 3
+LOAD ENGINE SFZ 3
+SET CHANNEL VOLUME 3 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 3 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 3 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/toms_pljones_D/rock/NDK-rocktom.sfz' 0 3
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 4 0
+SET CHANNEL MIDI_INPUT_PORT 4 0
+SET CHANNEL MIDI_INPUT_CHANNEL 4 4
+LOAD ENGINE SFZ 4
+SET CHANNEL VOLUME 4 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 4 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 4 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/cymbals_pljones_D/NDK-ride_noroll.sfz' 0 4
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 5 0
+SET CHANNEL MIDI_INPUT_PORT 5 0
+SET CHANNEL MIDI_INPUT_CHANNEL 5 5
+LOAD ENGINE SFZ 5
+SET CHANNEL VOLUME 5 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 5 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 5 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/cymbals_pljones_D/splash/NDK-splash_noroll.sfz' 0 5
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 6 0
+SET CHANNEL MIDI_INPUT_PORT 6 0
+SET CHANNEL MIDI_INPUT_CHANNEL 6 6
+LOAD ENGINE SFZ 6
+SET CHANNEL VOLUME 6 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 6 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 6 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/cymbals_pljones_D/crash/NDK-crash_noroll.sfz' 0 6
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 7 0
+SET CHANNEL MIDI_INPUT_PORT 7 0
+SET CHANNEL MIDI_INPUT_CHANNEL 7 7
+LOAD ENGINE SFZ 7
+SET CHANNEL VOLUME 7 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 7 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 7 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/hihats_pljones_D/NDK-hihat13.sfz' 0 7
+
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 8 0
+SET CHANNEL MIDI_INPUT_PORT 8 0
+SET CHANNEL MIDI_INPUT_CHANNEL 8 8
+LOAD ENGINE SFZ 8
+SET CHANNEL VOLUME 8 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 8 NONE
+SET CHANNEL AUDIO_OUTPUT_DEVICE 8 0
+LOAD INSTRUMENT NON_MODAL '/home/debian/linuxaudio/NDK/SFZ/percussion_pljones_D/NDK-percussion.sfz' 0 8
+
+
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [channel]
+#jsampler.fantasia: channelLane = 1
+#jsampler.fantasia: viewType = NORMAL
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [MIDI device]
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [MIDI device]
+#jsampler.fantasia: expanded = false
+#
+#jsampler.fantasia: [audio device]
+#jsampler.fantasia: expanded = false
+#
